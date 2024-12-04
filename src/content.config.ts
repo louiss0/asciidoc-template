@@ -8,9 +8,15 @@ const blog = defineCollection({
 		doctitle: z.string(),
 		description: z.string(),
 		// Transform string to Date object
-		pub_date: z.coerce.date(),
-		updated_date: z.coerce.date().optional(),
-		hero_image: z.string().optional(),
+		pub_date: z.string()
+			.date()
+			.transform((string) => new Date(string)),
+		updated_date: z.string()
+			.date()
+			.transform((string) => new Date(string))
+			.optional(),
+		hero_image: z.string()
+			.optional(),
 	}).transform(({ doctitle, ...rest }) => ({
 		title: doctitle,
 		...rest
