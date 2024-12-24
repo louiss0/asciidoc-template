@@ -12,6 +12,7 @@
     "@astrojs/rss": "^4.0.10",
     "@astrojs/sitemap": "^3.2.1",
     "@forastro/asciidoc": "^0.2.1",
+    "@unocss/astro": "^0.65.2",
     "astro": "^5.1.1"
   },
   "devDependencies": {
