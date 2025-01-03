@@ -1,5 +1,5 @@
 import { defineConfig, presetWind, transformerVariantGroup } from "unocss";
-import { presetAdocTypograhy } from "@forastro/asciidoc/plugins";
+import { presetAsciidocTypography } from "@forastro/asciidoc/unocss";
 
 
 export default defineConfig({
@@ -7,7 +7,7 @@ export default defineConfig({
         // Use WindiCSS classes.
         presetWind(),
         // presetTypography(),
-        presetAdocTypograhy(),
+        presetAsciidocTypography(),
       ],
       transformers: [
         // Enable variant groups.
