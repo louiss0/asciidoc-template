@@ -9,13 +9,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/rss": "^4.0.10",
+    "@astrojs/rss": "^4.0.11",
     "@astrojs/sitemap": "^3.2.1",
-    "@forastro/asciidoc": "^0.2.1",
-    "@unocss/astro": "^0.65.2",
-    "astro": "^5.1.1"
+    "@forastro/asciidoc": "^2.0.0",
+    "@unocss/astro": "^0.65.3",
+    "astro": "^5.1.2"
   },
   "devDependencies": {
-    "unocss": "^0.65.2"
+    "unocss": "^0.65.3"
   }
 }
